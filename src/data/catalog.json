@@ -1,0 +1,209 @@
+{
+  "shipping": {
+    "label": "Fast Shipping",
+    "price": 0,
+    "compareAtPrice": 5.99
+  },
+  "financing": {
+    "label": "as low as",
+    "amount": 19.19
+  },
+  "steps": [
+    {
+      "id": "cameras",
+      "stepNumber": 1,
+      "title": "Choose your cameras",
+      "icon": "camera",
+      "category": "cameras",
+      "productIds": [
+        "wyze-cam-v4",
+        "wyze-cam-pan-v3",
+        "wyze-cam-floodlight-v2",
+        "wyze-duo-cam-doorbell",
+        "wyze-battery-cam-pro"
+      ]
+    },
+    {
+      "id": "plan",
+      "stepNumber": 2,
+      "title": "Choose your plan",
+      "icon": "shield",
+      "category": "plan",
+      "productIds": ["cam-unlimited", "cam-plus"]
+    },
+    {
+      "id": "sensors",
+      "stepNumber": 3,
+      "title": "Choose your sensors",
+      "icon": "radio",
+      "category": "sensors",
+      "productIds": ["wyze-sense-motion", "wyze-sense-hub"]
+    },
+    {
+      "id": "protection",
+      "stepNumber": 4,
+      "title": "Add extra protection",
+      "icon": "plus-circle",
+      "category": "accessories",
+      "productIds": ["wyze-microsd-256"]
+    }
+  ],
+  "products": [
+    {
+      "id": "wyze-cam-v4",
+      "name": "Wyze Cam v4",
+      "description": "1080p HD indoor/outdoor security camera with color night vision.",
+      "image": "/products/wyze-cam-v4.svg",
+      "price": 27.98,
+      "compareAtPrice": 35.98,
+      "badge": "Save 22%",
+      "variants": [
+        { "id": "white", "label": "White", "swatch": "#f5f5f5" },
+        { "id": "grey", "label": "Grey", "swatch": "#9ca3af" },
+        { "id": "black", "label": "Black", "swatch": "#1f2937" }
+      ],
+      "learnMoreUrl": "#"
+    },
+    {
+      "id": "wyze-cam-pan-v3",
+      "name": "Wyze Cam Pan v3",
+      "description": "Pan and tilt smart security camera with 360° coverage.",
+      "image": "/products/wyze-cam-pan-v3.svg",
+      "price": 23.99,
+      "compareAtPrice": 33.99,
+      "badge": "Save 23%",
+      "variants": [
+        { "id": "white", "label": "White", "swatch": "#f5f5f5" },
+        { "id": "black", "label": "Black", "swatch": "#1f2937" }
+      ],
+      "learnMoreUrl": "#"
+    },
+    {
+      "id": "wyze-cam-floodlight-v2",
+      "name": "Wyze Cam Floodlight v2",
+      "description": "Motion-activated floodlight camera with 2800 lumens.",
+      "image": "/products/wyze-cam-floodlight-v2.svg",
+      "price": 84.98,
+      "compareAtPrice": 109.98,
+      "badge": "Save 23%",
+      "variants": [
+        { "id": "white", "label": "White", "swatch": "#f5f5f5" },
+        { "id": "black", "label": "Black", "swatch": "#1f2937" }
+      ],
+      "learnMoreUrl": "#"
+    },
+    {
+      "id": "wyze-duo-cam-doorbell",
+      "name": "Wyze Duo Cam Doorbell",
+      "description": "Dual-camera video doorbell with head-to-toe view.",
+      "image": "/products/wyze-duo-cam-doorbell.svg",
+      "price": 89.98,
+      "compareAtPrice": 99.98,
+      "learnMoreUrl": "#"
+    },
+    {
+      "id": "wyze-battery-cam-pro",
+      "name": "Wyze Battery Cam Pro",
+      "description": "Wire-free outdoor camera with 2K HDR video.",
+      "image": "/products/wyze-battery-cam-pro.svg",
+      "price": 93.99,
+      "compareAtPrice": 103.99,
+      "badge": "Save 10%",
+      "learnMoreUrl": "#"
+    },
+    {
+      "id": "cam-unlimited",
+      "name": "Cam Unlimited",
+      "description": "Unlimited cloud storage for all your Wyze cameras.",
+      "image": "/products/cam-unlimited.svg",
+      "price": 9.99,
+      "compareAtPrice": 12.99,
+      "priceSuffix": "/mo",
+      "learnMoreUrl": "#"
+    },
+    {
+      "id": "cam-plus",
+      "name": "Cam Plus",
+      "description": "14-day cloud storage and smart detections for one camera.",
+      "image": "/products/cam-plus.svg",
+      "price": 2.99,
+      "compareAtPrice": 3.99,
+      "priceSuffix": "/mo",
+      "learnMoreUrl": "#"
+    },
+    {
+      "id": "no-plan",
+      "name": "No plan",
+      "description": "Continue without a subscription plan.",
+      "image": "/products/no-plan.svg",
+      "price": 0,
+      "compareAtPrice": 0,
+      "learnMoreUrl": "#"
+    },
+    {
+      "id": "wyze-sense-motion",
+      "name": "Wyze Sense Motion Sensor",
+      "description": "Detect motion and trigger automations throughout your home.",
+      "image": "/products/wyze-sense-motion.svg",
+      "price": 9.99,
+      "compareAtPrice": 12.0,
+      "learnMoreUrl": "#"
+    },
+    {
+      "id": "wyze-sense-entry",
+      "name": "Wyze Sense Entry Sensor",
+      "description": "Know when doors and windows open or close.",
+      "image": "/products/wyze-sense-entry.svg",
+      "price": 9.0,
+      "compareAtPrice": 12.0,
+      "learnMoreUrl": "#"
+    },
+    {
+      "id": "wyze-sense-hub",
+      "name": "Wyze Sense Hub (Required)",
+      "description": "Central hub that connects all Wyze Sense devices.",
+      "image": "/products/wyze-sense-hub.svg",
+      "price": 0,
+      "compareAtPrice": 29.98,
+      "badge": "FREE",
+      "learnMoreUrl": "#"
+    },
+    {
+      "id": "wyze-sense-climate",
+      "name": "Wyze Sense Climate Sensor",
+      "description": "Monitor temperature and humidity in any room.",
+      "image": "/products/wyze-sense-climate.svg",
+      "price": 12.99,
+      "compareAtPrice": 15.99,
+      "learnMoreUrl": "#"
+    },
+    {
+      "id": "wyze-microsd-256",
+      "name": "Wyze MicroSD Card (256GB)",
+      "description": "Local storage for continuous recording on compatible cameras.",
+      "image": "/products/wyze-microsd-256.svg",
+      "price": 20.98,
+      "compareAtPrice": 26.98,
+      "badge": "Save 22%",
+      "learnMoreUrl": "#"
+    },
+    {
+      "id": "wyze-outdoor-power-adapter",
+      "name": "Wyze Outdoor Power Adapter",
+      "description": "Weather-resistant power adapter for outdoor cameras.",
+      "image": "/products/wyze-outdoor-power-adapter.svg",
+      "price": 11.99,
+      "compareAtPrice": 14.99,
+      "learnMoreUrl": "#"
+    },
+    {
+      "id": "wyze-mounting-kit",
+      "name": "Wyze Mounting Kit",
+      "description": "Universal mounting hardware for Wyze cameras.",
+      "image": "/products/wyze-mounting-kit.svg",
+      "price": 7.99,
+      "compareAtPrice": 9.99,
+      "learnMoreUrl": "#"
+    }
+  ]
+}
